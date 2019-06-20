@@ -1,9 +1,14 @@
 """ 
-- Put this file alongside the index.html at the root of HTML5 Bundle
-- Called with /asset/ path
+****************************************************************************
+
+- Put this file alongside the index.html in the root of your HTML5 Bundle
+- Run it with /asset/ path:
     > python mod_file_parser.py /assets/audio
 - It will update the /archive/archive_files.json file with music data
+
+****************************************************************************
  """
+
 import os
 import sys
 import json
