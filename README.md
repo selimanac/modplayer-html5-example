@@ -1,6 +1,6 @@
 There is a small [python script](https://github.com/selimanac/modplayer-html5-example/blob/master/mod_file_parser.py) which you can update the `/archive/archive_files.json` file with music files data:
 
-* Put [this](https://github.com/selimanac/modplayer-html5-example/blob/master/mod_file_parser.py) file alongside the index.html at the root of HTML5 Bundle
+* Put [this](https://github.com/selimanac/modplayer-html5-example/blob/master/mod_file_parser.py) file alongside the index.html in the root of your HTML5 Bundle
 * Run it with /asset/ path  
     `> python mod_file_parser.py /assets/audio`
 * It will update the /archive/archive_files.json file with music data	
